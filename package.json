@@ -4,12 +4,11 @@
   "description": "ui for MidCourt",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"test\""
+    "test": "echo \"test\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MinCourt/mid-court-ui.git"
-  },
+  "repository": "git+https://github.com/MinCourt/mid-court-ui.git",
   "keywords": [
     "ui"
   ],
@@ -18,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/MinCourt/mid-court-ui/issues"
   },
-  "homepage": "https://github.com/MinCourt/mid-court-ui#readme"
+  "homepage": "https://github.com/MinCourt/mid-court-ui#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-actions": "^6.3.0",
+    "@storybook/addon-essentials": "^6.3.0",
+    "@storybook/addon-links": "^6.3.0",
+    "@storybook/react": "^6.3.0",
+    "babel-loader": "^8.2.2"
+  }
 }
