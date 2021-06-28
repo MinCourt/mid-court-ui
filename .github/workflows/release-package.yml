@@ -25,7 +25,9 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-#      - run: npm ci
+
+      - run: npm install
+      - run: npm build
       - id: publish
         uses: JS-DevTools/npm-publish@v1
         with:
