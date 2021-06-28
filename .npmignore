@@ -1,1 +1,5 @@
 .idea
+storybook-static
+storybook
+.github
+.eslintrc.js
